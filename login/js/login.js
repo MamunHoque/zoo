@@ -9,7 +9,7 @@ $(document).ready(function () {
         } else {
             $.ajax({
                 type: "POST",
-                url: "admin/login/checklogin.php",
+                url: "login/checklogin.php",
                 data: "myusername=" + username + "&mypassword=" + password,
                 dataType: 'JSON',
                 success: function (html) {
