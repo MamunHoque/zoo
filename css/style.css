@@ -1105,6 +1105,15 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 
+#left_col {
+	float:left;
+	width:150px;
+}
+#right_col {
+	float:right;
+	width:600px;
+}
+
 
 
 

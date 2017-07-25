@@ -22,6 +22,7 @@ class NewUserForm extends DbConn
 
             $err = "Error: " . $e->getMessage();
 
+
         }
         //Determines returned value ('true' or error code)
         if ($err == '') {

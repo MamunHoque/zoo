@@ -1,11 +1,15 @@
 <?php
-session_start();
-if (!isset($_SESSION['username']) && $_SESSION['is_admin']!=1) {
-        header("location: index.php");
-}
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+//$_SESSION['is_admin']!=1
 ?>
 <?php require "partial/header.php"; ?>
-    <div id="content">
+
+<div id="content">
+    <div id="left_col">
+        <?php require "admin-sidebar.php"; ?>
+    </div>
+    <div id="right_col">
         <div id="live">
             <div class="container" style="padding: 20px; margin-top: 20px">
                 <h2 class="form-signin-heading">Add Animal</h2>
@@ -26,4 +30,5 @@ if (!isset($_SESSION['username']) && $_SESSION['is_admin']!=1) {
             </div> <!-- /container -->
         </div>
     </div>
-<?php require "partial/footer.php"; ?>
+</div>
+<?php require "../partial/footer.php"; ?>

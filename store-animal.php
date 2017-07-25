@@ -1,6 +1,6 @@
 <?php
-require 'includes/functions.php';
-include_once 'config.php';
+require 'login/includes/functions.php';
+include_once 'login/config.php';
 
 if(isset($_POST['name'])) {
     $data =   array(
@@ -37,7 +37,7 @@ if(isset($data['name']) && !empty($data['name'])){
 
     //Tries inserting into database and add response to variable
 
-    $a = new NewAnimalForm();
+    $a = new NewUserForm();
 
     $response = $a->createAnimal($data['name'], $data['description'],  $file_name);
 

@@ -3,7 +3,7 @@
 spl_autoload_register(function ($className) {
 
     $className = strtolower($className);
-    $path = "includes/{$className}.php";
+    $path = "/login/includes/{$className}.php";
 
     if (file_exists($path)) {
 

@@ -1,6 +1,6 @@
 <div id="footer">
     <div>
-        <a href="index.php" class="logo"><img src="images/animal-kingdom.png" alt=""/></a>
+        <a href="index.php" class="logo"><img src="/images/animal-kingdom.png" alt=""/></a>
         <div>
             <p>Ellentesque habitant morbi tristique senectus et 0000</p>
             <span>285 067-39 282 / 5282 9273 999</span>
@@ -22,5 +22,22 @@
     </div>
 </div>
 </div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+<?php /* if (!isset($_SESSION['flash_message_success'])): ?>
+    <script>
+        toastr.success('f');
+    </script>
+<?php
+    unset($_SESSION['flash_message_success']);
+endif; ?>
+
+<?php if (!isset($_SESSION['flash_message_error'])): ?>
+    <script>
+        toastr.error('d');
+    </script>
+<?php
+    unset($_SESSION['flash_message_error']);
+endif; */ ?>
 </body>
 </html>
