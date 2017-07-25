@@ -10,7 +10,7 @@ if (isset($_SESSION['username'])) {
     <div class="container" style="margin-left: 150px; padding-top: 30px">
 
         <form class="form-signup" id="usersignup" name="usersignup" method="post" action="login/createuser.php">
-            <h2 class="form-signup-heading">Register</h2>
+            <h2 class="form-signup-heading">Visitors Register</h2>
             <input name="newuser" id="newuser" type="text" class="form-control" placeholder="Username" autofocus>
             <br><input name="email" id="email" type="text" class="form-control" placeholder="Email">
             <br>

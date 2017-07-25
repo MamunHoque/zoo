@@ -50,7 +50,7 @@ if ($pw1 != $pw2) {
             //Send verification email
           //  $m = new MailSender;
          //   $m->sendMail($newemail, $newuser, $newid, 'Verify');
-            header('Location: http://localhost/park/index.php');
+            header('Location: index.php');
             exit;
 
         } else {

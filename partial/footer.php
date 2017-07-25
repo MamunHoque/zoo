@@ -1,6 +1,6 @@
 <div id="footer">
     <div>
-        <a href="index.php" class="logo"><img src="images/animal-kingdom.jpg" alt=""/></a>
+        <a href="index.php" class="logo"><img src="images/animal-kingdom.png" alt=""/></a>
         <div>
             <p>Ellentesque habitant morbi tristique senectus et 0000</p>
             <span>285 067-39 282 / 5282 9273 999</span>
@@ -15,9 +15,8 @@
             <li><a href="gallery.php">Gallery</a></li>
         </ul>
         <ul>
-            <li><a href="live.php">Live : Have fun in your visit</a></li>
-            <li><a href="live.php">Love : Donate for the animals</a></li>
-            <li><a href="live.php">Learn : Get to know the animals</a></li>
+            <li><a href="add-animal.php">Add Animal</a></li>
+            <li><a href="add-ticket.php">Add Ticket</a></li>
         </ul>
         <p>Copyright &#169; 2017. All Rights Reserved.</p>
     </div>

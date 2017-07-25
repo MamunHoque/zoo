@@ -51,7 +51,7 @@ if ($lastAttempt['attempts'] < $max_attempts && $response != 'true') {
     $resp = new RespObj($username, $response);
     $jsonResp = json_encode($resp);
     //echo $jsonResp;
-    header('Location: http://localhost/park/index.php');
+    header('Location: /index.php');
     exit;
 
 }

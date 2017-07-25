@@ -1,7 +1,8 @@
 <?php
 //PUT THIS HEADER ON TOP OF EACH UNIQUE PAGE
 session_start();
-if('/park/index.php'==$_SERVER['REQUEST_URI']){
+
+if('/index.php'==$_SERVER['REQUEST_URI']){
     $homepage = 1;
 }else{
     $homepage = 0;
@@ -12,7 +13,7 @@ if('/park/index.php'==$_SERVER['REQUEST_URI']){
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Zoo</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
 
 </head>
 <body>
@@ -20,9 +21,9 @@ if('/park/index.php'==$_SERVER['REQUEST_URI']){
     <div id="header">
 
         <?php if($homepage) : ?>
-            <a href="index.php" id="logo"><img src="images/logo.jpg" alt=""/></a>
+            <a href="index.php" id="logo"><img src="images/logo.png" alt=""/></a>
         <?php else: ?>
-            <a href="index.php" id="logo"><img src="images/logo-page.jpg" alt=""/></a>
+            <a href="index.php" id="logo"><img src="images/logo.png" alt=""/></a>
         <?php endif; ?>
 
         <ul <?php echo $homepage!=1?'id="links"':''; ?> >
