@@ -70,4 +70,29 @@ class Ticket
 
     }
 
+
+    public function delete($id)
+    {
+        try {
+
+            $db = new DbConn;
+            $tbl_tickets = $db->tbl_tickets;
+            // prepare sql and bind parameters
+            $stmt = $db->conn->prepare("DELETE FROM ".$tbl_tickets." WHERE id = ?");
+            $stmt->execute(array($id));
+            $count = $stmt->rowCount();
+            if($count>0){
+                return true;
+            }
+
+        } catch (PDOException $e) {
+
+            $err = "Error: " . $e->getMessage();
+
+            return false;
+
+        }
+
+    }
+
 }

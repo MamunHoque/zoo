@@ -1116,11 +1116,11 @@ input[type=button], input[type=submit], input[type=reset] {
 
 #left_col {
 	float:left;
-	width:150px;
+	width:120px;
 }
 #right_col {
 	float:right;
-	width:600px;
+	width:680px;
 }
 
 
@@ -1128,4 +1128,27 @@ input[type=button], input[type=submit], input[type=reset] {
 	height: 120px;
 }
 
+
+table#customers {
+	font-size:16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+#customers td, #customers th {
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2}
+
+#customers th {
+	padding-top: 11px;
+	padding-bottom: 11px;
+	background-color: #4CAF50;
+	color: white;
+}
 

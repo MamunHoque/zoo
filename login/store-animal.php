@@ -49,7 +49,7 @@ if(isset($data['name']) && !empty($data['name'])){
     //Success
     if ($response == 'true') {
         Flash::create('success','Animal added successfully.');
-        header('Location: /add-animal.php');
+        header('Location: /admin-animals.php');
         exit;
 
 

@@ -53,7 +53,7 @@ if(isset($data['ticket_name']) && !empty($data['ticket_name'])){
     //Success
     if ($response == 'true') {
         Flash::create('success','Ticket added successfully.');
-        header('Location: /add-ticket.php');
+        header('Location: /admin-tickets.php');
         exit;
 
 

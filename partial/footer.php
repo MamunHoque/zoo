@@ -39,8 +39,9 @@
             <li><a href="gallery.php">Gallery</a></li>
         </ul>
         <ul>
-            <li><a href="add-animal.php">Add Animal</a></li>
-            <li><a href="add-ticket.php">Add Ticket</a></li>
+            <li><a href="/admin-animals.php">Animals</a></li>
+            <li><a href="/add-animal.php">Add Animals</a></li>
+            <li><a href="/add-ticket.php">Add Ticket</a></li>
         </ul>
         <p>Copyright &#169; 2017. All Rights Reserved.</p>
     </div>

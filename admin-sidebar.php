@@ -4,6 +4,5 @@
     <li id="link2"><a href="/admin-animals.php">Animals</a></li>
     <li id="link3"><a href="/add-animal.php">Add Animals</a></li>
     <li id="link2"><a href="/admin-tickets.php">Tickets</a></li>
-    <li id="link3"><a href="/add-tickets.php">Add Ticket</a></li>
-    <li id="link2"><a href="/settings.php">Settings</a></li>
+    <li id="link3"><a href="/add-ticket.php">Add Ticket</a></li>
 </ul>
