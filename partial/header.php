@@ -17,9 +17,6 @@ if('/index.php'==$_SERVER['REQUEST_URI']){
     <title>Zoo</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-
-
-
 </head>
 <body>
 <div id="page">
@@ -60,5 +57,4 @@ if('/index.php'==$_SERVER['REQUEST_URI']){
                 <h1>Special Events:</h1>
             </div>
         <?php endif; ?>
-
     </div>
