@@ -1,6 +1,11 @@
 <?php
-require 'login/includes/functions.php';
-include_once 'login/config.php';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+require 'includes/functions.php';
+include_once 'config.php';
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 if(isset($_POST['name'])) {
     $data =   array(
@@ -43,12 +48,17 @@ if(isset($data['name']) && !empty($data['name'])){
 
     //Success
     if ($response == 'true') {
-
+        Flash::create('success','Animal added successfully.');
+        header('Location: /add-animal.php');
         exit;
+
 
     } else {
         //Failure
         mySqlErrors($response);
+        Flash::create('error',$response);
+        header('Location: /add-animal.php');
+        exit;
 
     }
 }

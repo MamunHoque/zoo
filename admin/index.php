@@ -13,7 +13,7 @@ ini_set('display_errors', 1);
         <div id="live">
             <div class="container" style="padding: 20px; margin-top: 20px">
                 <h2 class="form-signin-heading">Add Animal</h2>
-                <form class="form-signin" name="form1" method="POST" action="../store-animal.php" enctype="multipart/form-data">
+                <form class="form-signin" name="form1" method="POST" action="../login/store-animal.php" enctype="multipart/form-data">
                     <label for="name">Animal Name</label>
                     <input type="text" id="name" name="name" placeholder="Animal Name.." required>
 

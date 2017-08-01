@@ -27,14 +27,16 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 <?php
-$msg = Flash::show('success');
+print_r($_SESSION);
+$msg  = Flash::show('success');
+$msg2 = Flash::show('error');
+
 if(!empty($msg)){ ?>
 <script type="application/javascript">
     toastr.success('<?php echo $msg; ?>');
 </script>
 <?php
 }
-$msg2 = Flash::show('error');
 if(!empty($msg2)){ ?>
     <script type="application/javascript">
         toastr.error('<?php echo $msg2; ?>');

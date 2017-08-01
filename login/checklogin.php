@@ -3,6 +3,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 //DO NOT ECHO ANYTHING ON THIS PAGE OTHER THAN RESPONSE
 //'true' triggers login success
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 ob_start();
 include 'config.php';
 require 'includes/functions.php';
@@ -45,7 +48,8 @@ if ($lastAttempt['attempts'] < $max_attempts && $response != 'true') {
 
     $loginCtl->updateAttempts($username);
     $resp = new RespObj($username, $response);
-    Flash::create('error',$resp);
+    $respo= strip_tags($resp->response);
+    Flash::create('error',$respo);
     header('Location: /index.php');
     exit;
 
