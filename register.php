@@ -1,12 +1,9 @@
 <?php
-session_start();
 if (isset($_SESSION['username'])) {
-    session_start();
-    session_destroy();
+    header("location: index.php");
 }
 ?>
 <?php require "partial/header.php"; ?>
-<div id="content">
     <div class="container" style="margin-left: 150px; padding-top: 30px">
 
         <form class="form-signup" id="usersignup" name="usersignup" method="post" action="login/createuser.php">
@@ -22,7 +19,6 @@ if (isset($_SESSION['username'])) {
         </form>
 
     </div> <!-- /container -->
-</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="login/js/jquery-2.2.4.min.js"></script>
 

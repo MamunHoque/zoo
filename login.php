@@ -4,7 +4,6 @@ if (isset($_SESSION['username'])) {
 }
 ?>
 <?php require "partial/header.php"; ?>
-<div id="content">
     <div class="container" style="margin-left: 150px; padding-top: 30px">
 
         <form class="form-signin" name="form1" method="post" action="login/checklogin.php">
@@ -16,5 +15,4 @@ if (isset($_SESSION['username'])) {
         </form>
 
     </div> <!-- /container -->
-</div>
 <?php require "partial/footer.php"; ?>

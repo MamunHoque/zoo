@@ -1,6 +1,4 @@
 <?php require "partial/header.php"; ?>
-
-    <div id="content">
         <div id="featured">
             <h2>Meet our Animals</h2>
             <ul>
@@ -89,5 +87,4 @@
             </form>
             <img src="images/penguin2.jpg" alt=""/>
         </div>
-    </div>
 <?php require "partial/footer.php"; ?>

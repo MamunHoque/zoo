@@ -1,5 +1,4 @@
 <?php require "partial/header.php"; ?>
-    <div id="content">
         <div id="zoo">
             <h1>The Zoo</h1>
             <h3>We Have Free Templates for Everyone</h3>
@@ -21,42 +20,4 @@
             <h4>Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/forum/f18/zoo-website-template-18526">Zoo Template</a>. Website Template design by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>.</h4>
             <h4>Please feel free to remove some or all the text and links of this page and replace it with your own About content.</h4>
         </div>
-        <div class="featured">
-            <h2>Meet our Animals</h2>
-            <ul>
-                <li class="first">
-                    <a href="gallery.html"><img src="images/penguin.jpg" alt=""/></a>
-                    <a href="gallery.html">Duis laoreet</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/elephant.jpg" alt=""/></a>
-                    <a href="gallery.html">Curabitur</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/owl.jpg" alt=""/></a>
-                    <a href="gallery.html">Adipiscing</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/butterfly.jpg" alt=""/></a>
-                    <a href="gallery.html">Sed Volutpat</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/turtle.jpg" alt=""/></a>
-                    <a href="gallery.html">Nulla lobortis</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/snake.jpg" alt=""/></a>
-                    <a href="gallery.html">Suspendisse</a>
-                </li>
-                <li>
-                    <a href="gallery.html"><img src="images/gorilla.jpg" alt=""/></a>
-                    <a href="gallery.html">Tincidunt</a>
-                </li>
-                <li class="last">
-                    <a href="gallery.html"><img src="images/button-view-gallery2.jpg" alt=""/></a>
-                    <a href="gallery.html">View  </br> Gallery</a>
-                </li>
-            </ul>
-        </div>
-    </div>
 <?php require "partial/footer.php"; ?>

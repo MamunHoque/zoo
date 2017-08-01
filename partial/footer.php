@@ -1,3 +1,27 @@
+
+<?php if($homepage!=1): ?>
+    <div class="featured">
+        <h2>Meet our Animals</h2>
+        <ul>
+            <?php
+            $a = new Animal();
+            $animals = $a->getAllAnimals(7);
+            $count = 1;
+            foreach ($animals as $animal) { ?>
+                <li class="<?php echo $count==1?'first':''; ?>">
+                    <a href="gallery.php"><img src="/login/<?php echo $animal['image']; ?>" alt="" height="100" width="100"/></a>
+                    <a href="gallery.php"><?php echo $animal['name']; ?></a>
+                </li>
+                <?php $count++;}  ?>
+            <li class="last">
+                <a href="gallery.html"><img src="images/button-view-gallery2.jpg" alt=""/></a>
+                <a href="gallery.html">View  </br> Gallery</a>
+            </li>
+        </ul>
+    </div>
+<?php endif; ?>
+</div>
+
 <div id="footer">
     <div>
         <a href="index.php" class="logo"><img src="/images/animal-kingdom.png" alt=""/></a>
