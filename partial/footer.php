@@ -22,22 +22,26 @@
     </div>
 </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
-<?php /* if (!isset($_SESSION['flash_message_success'])): ?>
-    <script>
-        toastr.success('f');
-    </script>
 <?php
-    unset($_SESSION['flash_message_success']);
-endif; ?>
+$msg = Flash::show('success');
+if(!empty($msg)){ ?>
+<script type="application/javascript">
+    toastr.success('<?php echo $msg; ?>');
+</script>
+<?php
+}
+$msg2 = Flash::show('error');
+if(!empty($msg2)){ ?>
+    <script type="application/javascript">
+        toastr.error('<?php echo $msg2; ?>');
+    </script>
+    <?php
+}
+?>
 
-<?php if (!isset($_SESSION['flash_message_error'])): ?>
-    <script>
-        toastr.error('d');
-    </script>
-<?php
-    unset($_SESSION['flash_message_error']);
-endif; */ ?>
 </body>
 </html>

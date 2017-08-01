@@ -1,9 +1,12 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+require 'login/includes/functions.php';
 
 //PUT THIS HEADER ON TOP OF EACH UNIQUE PAGE
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 if('/index.php'==$_SERVER['REQUEST_URI']){
     $homepage = 1;
 }else{

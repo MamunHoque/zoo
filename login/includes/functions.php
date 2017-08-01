@@ -1,20 +1,10 @@
 <?php
 //Class Autoloader
-spl_autoload_register(function ($className) {
 
-    $className = strtolower($className);
-    $path = "/login/includes/{$className}.php";
-
-    if (file_exists($path)) {
-
-        require_once($path);
-
-    } else {
-
-        die("The file {$className}.php could not be found.");
-
-    }
+spl_autoload_register(function ($class_name) {
+    include $class_name . '.php';
 });
+
 
 function checkAttempts($username)
 {

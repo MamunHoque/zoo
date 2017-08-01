@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 //DO NOT ECHO ANYTHING ON THIS PAGE OTHER THAN RESPONSE
 //'true' triggers login success
 ob_start();
@@ -43,18 +45,20 @@ if ($lastAttempt['attempts'] < $max_attempts && $response != 'true') {
 
     $loginCtl->updateAttempts($username);
     $resp = new RespObj($username, $response);
-    $jsonResp = json_encode($resp);
-    echo $jsonResp;
+    Flash::create('error',$resp);
+    header('Location: /index.php');
+    exit;
 
 } else {
 
     $resp = new RespObj($username, $response);
-    $jsonResp = json_encode($resp);
-    //echo $jsonResp;
+    $response = strip_tags($resp->response);
+
+    Flash::create('success','You successfully login.');
     header('Location: /index.php');
     exit;
 
 }
 
-unset($resp, $jsonResp);
+unset($resp);
 ob_end_flush();
