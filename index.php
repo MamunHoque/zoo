@@ -1,39 +1,21 @@
 <?php require "partial/header.php"; ?>
+
     <div id="content">
         <div id="featured">
             <h2>Meet our Animals</h2>
             <ul>
-                <li class="first">
-                    <a href="gallery.php"><img src="/images/penguin.jpg" alt=""/></a>
-                    <a href="gallery.php">Duis laoreet</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/elephant.jpg" alt=""/></a>
-                    <a href="gallery.php">Curabitur</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/owl.jpg" alt=""/></a>
-                    <a href="gallery.php">Adipiscing</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/butterfly.jpg" alt=""/></a>
-                    <a href="gallery.php">Sed Volutpat</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/turtle.jpg" alt=""/></a>
-                    <a href="gallery.php">Nulla lobortis</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/snake.jpg" alt=""/></a>
-                    <a href="gallery.php">Suspendisse</a>
-                </li>
-                <li>
-                    <a href="gallery.php"><img src="/images/gorilla.jpg" alt=""/></a>
-                    <a href="gallery.php">Tincidunt</a>
-                </li>
+                <?php
+                $a = new Animal();
+                $animals = $a->getAllAnimals(7);
+                foreach ($animals as $animal) { ?>
+                    <li class="">
+                        <a href="gallery.php"><img src="/login/<?php echo $animal['image']; ?>" alt="" height="100" width="100"/></a>
+                        <a href="gallery.php"><?php echo $animal['name']; ?></a>
+                    </li>
+               <?php } ?>
                 <li class="last">
-                    <a href="gallery.php"><img src="/images/button-view-gallery.jpg" alt=""/></a>
-                    <a href="gallery.php">Gallery</a>
+                    <a href="gallery.php"><img src="images/button-view-gallery2.jpg" alt="" ></a>
+                    <a href="gallery.php">View  <br> Gallery</a>
                 </li>
             </ul>
         </div>

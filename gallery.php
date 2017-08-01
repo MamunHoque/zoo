@@ -3,42 +3,16 @@
 				<div id="gallery">
 					<h1>Meet our Animals</h1>
 					<ul>
+						<?php
+							$a = new Animal();
+							$animals = $a->getAllAnimals();
+							foreach ($animals as $animal) {
+						?>
 						<li>
-							<div><a href="#"><img src="images/gallery-lion.jpg" alt=""/></a></div>
-							<a href="#">Morbi Suscipit</a>
+							<div><a href="#"><img src="/login/<?php echo $animal['image']; ?>" alt=""/></a></div>
+							<a href="#"><?php echo $animal['name']; ?></a>
 						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-turtle.jpg" alt=""/></a></div>
-							<a href="#">Donec Augue</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-elephant.jpg" alt=""/></a></div>
-							<a href="#">Rhoncus Rutrum</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-penguin.jpg" alt=""/></a></div>
-							<a href="#">Donec Lacus</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-dolphin.jpg" alt=""/></a></div>
-							<a href="#">Vestibulum Libero</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-buterfly.jpg" alt=""/></a></div>
-							<a href="#">Integer Libero</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-gorilla.jpg" alt=""/></a></div>
-							<a href="#">Malesuada Lacinia</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-owl.jpg" alt=""/></a></div>
-							<a href="#">Praesent Odio</a>
-						</li>
-						<li>
-							<div><a href="#"><img src="images/gallery-blue-butterfly.jpg" alt=""/></a></div>
-							<a href="#">Pulvinar Ultrices</a>
-						</li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>
