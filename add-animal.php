@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ob_start();
 require "partial/header.php";
-if (!isset($_SESSION['username'])) {
+if (!isset($_SESSION['is_admin'])) {
     Flash::create('error','You have not correct right');
     header("location:index.php");
 }

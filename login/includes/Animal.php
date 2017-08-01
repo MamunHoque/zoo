@@ -7,6 +7,12 @@
  */
 class Animal
 {
+    /**
+     * Get All Animal List
+     * @param int $limit
+     *
+     * @return array|string
+     */
     public function getAllAnimals($limit=100)
     {
         try {
@@ -33,7 +39,12 @@ class Animal
     }
 
 
-
+    /**
+     * Delete animal by ID
+     * @param $id
+     *
+     * @return bool
+     */
     public function delete($id)
     {
         try {

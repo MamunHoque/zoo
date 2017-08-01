@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a10f76-14bc-4b25-96f8-6332c999811d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-animals.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin-tickets.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login/delete-animal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login/delete-ticket.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login/dbconf.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/park.sql" afterPath="$PROJECT_DIR$/database.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-sidebar.php" afterPath="$PROJECT_DIR$/admin-sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-animal.php" afterPath="$PROJECT_DIR$/add-animal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-ticket.php" afterPath="$PROJECT_DIR$/add-ticket.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/includes/Animal.php" afterPath="$PROJECT_DIR$/login/includes/Animal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/includes/ticket.php" afterPath="$PROJECT_DIR$/login/includes/ticket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/store-animal.php" afterPath="$PROJECT_DIR$/login/store-animal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/store-ticket.php" afterPath="$PROJECT_DIR$/login/store-ticket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial/footer.php" afterPath="$PROJECT_DIR$/partial/footer.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,62 +38,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="delete-ticket.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/delete-ticket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store-ticket.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/store-ticket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="44" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store-animal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/store-animal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-animals.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-animals.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="100" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-tickets.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-tickets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.3667426">
-                <caret line="14" column="11" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="11" />
+              <first_editor vertical-scroll-proportion="0.1309795">
+                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -108,43 +51,6 @@
           </provider>
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/includes/dbconn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="11" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/includes/animal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="5" selection-start-line="36" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <marker date="1501623786000" expanded="true" signature="305:342" placeholder="SELECT * FRO..${$tbl_animals}..." />
-                <marker date="1501623786000" expanded="true" signature="820:861" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/includes/ticket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-              <folding>
-                <marker date="1501624038000" expanded="true" signature="354:523" placeholder="INSERT INTO ${$tbl_animals}..." />
-                <marker date="1501624038000" expanded="true" signature="1406:1443" placeholder="SELECT * FRO..${$tbl_animals}..." />
-                <marker date="1501624038000" expanded="true" signature="1919:1960" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -198,13 +104,11 @@
         <option value="$PROJECT_DIR$/admin/store-animal.php" />
         <option value="$PROJECT_DIR$/store-animal.php" />
         <option value="$PROJECT_DIR$/login/uploads/add-animal.php" />
-        <option value="$PROJECT_DIR$/add-animal.php" />
         <option value="$PROJECT_DIR$/login/includes/Flash.php" />
         <option value="$PROJECT_DIR$/login/checklogin.php" />
         <option value="$PROJECT_DIR$/login/logout.php" />
         <option value="$PROJECT_DIR$/login/includes/functions.php" />
         <option value="$PROJECT_DIR$/gallery.php" />
-        <option value="$PROJECT_DIR$/add-ticket.php" />
         <option value="$PROJECT_DIR$/zoo.php" />
         <option value="$PROJECT_DIR$/tickets.php" />
         <option value="$PROJECT_DIR$/live.php" />
@@ -219,7 +123,6 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/admin-sidebar.php" />
         <option value="$PROJECT_DIR$/partial/footer.php" />
-        <option value="$PROJECT_DIR$/login/includes/animal.php" />
         <option value="$PROJECT_DIR$/admin-animals.php" />
         <option value="$PROJECT_DIR$/login/delete-animal.php" />
         <option value="$PROJECT_DIR$/login/includes/ticket.php" />
@@ -228,6 +131,9 @@
         <option value="$PROJECT_DIR$/login/store-animal.php" />
         <option value="$PROJECT_DIR$/admin-tickets.php" />
         <option value="$PROJECT_DIR$/login/includes/dbconn.php" />
+        <option value="$PROJECT_DIR$/add-animal.php" />
+        <option value="$PROJECT_DIR$/add-ticket.php" />
+        <option value="$PROJECT_DIR$/login/includes/animal.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -334,11 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,8 +266,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/login" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/login" />
       <recent name="$PROJECT_DIR$/login/includes" />
       <recent name="$PROJECT_DIR$/uploads" />
       <recent name="$PROJECT_DIR$/css" />
@@ -622,21 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/81186231.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/22280154.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/15590044.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login/includes/respobj.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -692,22 +579,6 @@
             <marker date="1501010655000" expanded="true" signature="280:395" placeholder="INSERT INTO ${$tbl_members}..." />
             <marker date="1501010655000" expanded="true" signature="1198:1302" placeholder="INSERT INTO ${$tbl_animals}..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add-animal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6902465">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add-ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073954985">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17256163">
@@ -822,29 +685,6 @@
         <state vertical-scroll-proportion="1.1093248">
           <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/includes/animal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="5" selection-start-line="36" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <marker date="1501623786000" expanded="true" signature="305:342" placeholder="SELECT * FRO..${$tbl_animals}..." />
-            <marker date="1501623786000" expanded="true" signature="820:861" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/includes/ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-          <folding>
-            <marker date="1501624038000" expanded="true" signature="354:523" placeholder="INSERT INTO ${$tbl_animals}..." />
-            <marker date="1501624038000" expanded="true" signature="1406:1443" placeholder="SELECT * FRO..${$tbl_animals}..." />
-            <marker date="1501624038000" expanded="true" signature="1919:1960" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,17 +706,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login/store-animal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.50696677">
           <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin-animals.php">
+    <entry file="file://$PROJECT_DIR$/login/includes/dbconn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="100" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.22186495">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="11" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/includes/ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6795284">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <folding>
+            <marker date="1501624038000" expanded="true" signature="354:523" placeholder="INSERT INTO ${$tbl_animals}..." />
+            <marker date="1501624038000" expanded="true" signature="1406:1443" placeholder="SELECT * FRO..${$tbl_animals}..." />
+            <marker date="1501624038000" expanded="true" signature="1919:1960" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -888,10 +740,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/includes/dbconn.php">
+    <entry file="file://$PROJECT_DIR$/login/includes/animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24651662">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1501625244000" expanded="true" signature="408:445" placeholder="SELECT * FRO..${$tbl_animals}..." />
+            <marker date="1501625244000" expanded="true" signature="1010:1051" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19721329">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="11" selection-end-column="43" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add-animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19721329">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add-ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19721329">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-animals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12325831">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -899,8 +794,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.3667426">
-            <caret line="14" column="11" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="11" />
+          <first_editor vertical-scroll-proportion="0.1309795">
+            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
